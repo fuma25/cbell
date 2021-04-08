@@ -1,4 +1,30 @@
 <style>
+  a {
+    font-size: 20px;
+    text-decoration: none;
+    }
+
+  .grid-container {
+    display: grid;
+    grid: 50px / 1fr 400px 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    align-items: center;
+  }
+  .title_left{
+    text-align: right;
+  }
+  .title_right{
+    text-align: left;
+  }
+  .text{
+    text-align: center;
+  }
+  .main_img{
+    display:inline-block;
+    text-align: center;
+    border: 5px solid white;
+  }
   body {
     margin:0;
   }
@@ -8,23 +34,9 @@
     font-family: Verdana;
     margin:0;
   }
-  a {
-    font-size: 20px;
-    text-decoration: none;
-  }
-  #title1{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
+  h6 {
     text-align: center;
-    padding-top:10px;
+    font-family: Verdana;
   }
-  #title2{
-    text-align: center;
-  }
-  #text{
-    text-align: center;
-  }
-  #main{
-    text-align: center;
-  }
+
 </style>
